@@ -1,5 +1,3 @@
-
-
 # NxNodeMicroservices
 
 This project was generated using [Nx](https://nx.dev).
@@ -79,8 +77,6 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
 
-
-
 ## ☁ Nx Cloud
 
 ### Computation Memoization in the Cloud
@@ -92,3 +88,13 @@ Nx Cloud pairs with Nx in order to enable you to build and test code more rapidl
 Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
 
 Visit [Nx Cloud](https://nx.app/) to learn more.
+
+=====================================
+
+1.  npx create-nx-workspace --preset=nest
+2.  Workspace name (e.g., org name) nx-node-microservices
+    Application name api
+3.  npm run nx generate application ui
+4.  npm install -D @nrwl/node
+    npm run nx generate @nrwl/node:library todos
+5.  pls follow this - https://blog.nrwl.io/nx-and-node-microservices-b6df3cd1bad6
